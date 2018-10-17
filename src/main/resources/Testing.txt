@@ -1,0 +1,35 @@
+status
+registration_numbers_for_cars_with_colour White
+slot_number_for_registration_number KA-01-HH-3141
+slot_numbers_for_cars_with_colour White
+create_parking_lot a
+create_parking_lot
+create_parking_lot 6
+create_parking_lot 7
+registration_numbers_for_cars_with_colour
+park KA-01-HH-1234 White
+park KA-01-HH-9999 White
+park KA-01-BB-0001 Black
+park KA-01-HH-7777 Red
+park KA-01-HH-2701 Blue
+park KA-01-HH-3141 Black
+leave 4
+status
+test
+park KA-01-P-333 White
+park DL-12-AA-9999 White
+registration_numbers_for_cars_with_colour White
+registration_numbers_for_cars_with_colour Gray
+slot_numbers_for_cars_with_colour White
+slot_numbers_for_cars_with_colour
+slot_numbers_for_cars_with_colour Gray
+slot_number_for_registration_number
+slot_number_for_registration_number KA-01-HH-3141
+slot_number_for_registration_number MH-04-AY-1111
+slot_number_for_registration_number KH
+status should_has_no_param
+park KA
+leave a
+leave 1
+leave 1
+leave
